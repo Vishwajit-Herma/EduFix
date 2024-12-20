@@ -1,0 +1,85 @@
+.post-box{
+    height: 100px;
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 33%;
+    top: 15px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.ask{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 5px;
+   
+}
+
+.ans{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.post{
+    margin-top: 28px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.para{
+
+    color: #3897f0;;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+}
+
+.seperator{
+    width: 2px;
+    height: 15px;
+    background-color: #f2f2f2 ;
+    margin: 0 5px;
+    position: absolute;
+    top: 55px;
+    left: 35%;
+}
+
+.seperator1{
+    width: 2px;
+    height: 15px;
+    background-color: #f2f2f2 ;
+    margin: 0 5px;
+    position: absolute;
+    top: 55px;
+    left: 62%;
+}
+
+.ask:hover{
+    border-radius: 10px;
+    color: #3897f0;
+}
+
+.ans:hover{
+    border-radius: 10px;
+    color: #3897f0;
+}
+
+.post:hover{
+    border-radius: 10px;
+    color: #3897f0;
+}
+

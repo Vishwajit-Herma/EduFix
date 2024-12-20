@@ -1,0 +1,165 @@
+.create-post{
+    color: black;
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    text-align: center;
+    position: absolute;
+    top: 20px;
+   
+    background-color: #f2f2f2;
+}
+
+.text1::placeholder{
+    color: black;
+}
+
+.text1{
+   position: absolute;
+   top: 10%;
+   width: 400px;
+   margin: 0 0;
+   left: 10%;
+   border: none;
+    padding-left: 2px;
+    height: 31px;
+    color: black;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+   
+}
+
+.post-form{
+    background: #fff;
+    position: absolute;
+    top: 10%;
+    padding: 0;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.file{
+    position: absolute;
+    top: 20%;
+    width: 393px;
+    margin: 0 0;
+    margin-left: 7%;
+    height: 80px;
+    
+ }
+
+ .file-input{
+    position: absolute;
+ 
+    width: 401px;
+    left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 3px;
+    height: 31px;
+    padding-top: 3px;
+    background-color: #f9f9f9;
+    margin-top: 1px;
+  
+    cursor: pointer;
+ }
+
+.quill{
+    position: absolute;
+    top: 30%;
+    width: 400px;
+    margin: 0 0;
+    left: 10%; 
+    height: 300px;
+    resize: none;
+    text-align: justify;
+    box-sizing: border-box;
+
+    word-wrap: break-word; /* Allow long words to break and wrap to the next line */
+    white-space: pre-wrap;
+}
+
+.ql-editor{
+    font-size: 1.05rem;
+    color: white;
+}
+
+.ql-editor::placeholder{
+    color: white;
+}
+
+.ql-container.ql-snow {
+    border: 2px solid hwb(0 49% 49%);
+}
+
+.ql-toolbar.ql-snow {
+    border: 2px solid hwb(0 49% 49%);
+}
+
+.ql-snow .ql-stroke{
+    stroke: white;
+}
+
+.submit{
+    position: absolute;
+    top: 85%;
+    width: 403px;
+    margin: 0 0;
+    left: 10%; 
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    
+    background-color: #3897f0;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+
+.submit:hover{
+    background-color: #3184d6;
+    
+    transform: scale(1.01);
+}
+
+
+.bar{
+height: 60px;
+width: 60px;
+background-color: white;
+}
+
+.view{
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+}
+
+.error{
+    margin-top: 50px;
+    height: 50px;
+    width: 80px;
+}
+
+.showing{
+    height: 500px;
+    width: 200px;
+    background-size: cover;
+    z-index: 3;
+}

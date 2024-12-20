@@ -1,0 +1,135 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3897f0;
+    padding: 15px 7%;
+    transition: 0.5s;
+    position: fixed;
+    z-index: 1000;
+    height: 70px;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    will-change: transform; 
+    font-weight: 600;
+    color: white;
+}
+
+.toggle{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 60px;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    /* border: hsl(114, 77%, 64%) solid 2px; */
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background: #fff;
+   
+    padding: 1px 20px;
+    border-radius: 50px;
+}
+
+.t11{
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: #000;
+    font-size: 18px;
+    max-width: 200px;
+    margin: 0%;
+    
+    
+}
+
+.search input::placeholder{
+    color: #000;
+    background: transparent;
+}
+
+.search img{
+    width: 20px;
+    cursor: pointer;
+    
+}
+
+.dark .navbar{
+    background: #000;
+    color: #fff;
+}
+
+.dark .search{
+    background: #3897f0;
+}
+
+.dark .search input{
+    color: #222;
+    background-color: white;
+}
+
+.dark .search input::placeholder{
+    color: #222;
+    background-color: white;
+}
+
+.dark{
+    background: #222;
+}
+
+.light{
+    background: #f2f2f2;
+}
+.li:hover{
+    transform: translateY(-5px) scale(1.1);
+}
+.toggle:hover{
+    transform: translateY(-5px) scale(1.1);
+}
+
+.suggestions {
+    list-style: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    margin-top: 5px;
+  }
+  
+  .suggestions li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+  

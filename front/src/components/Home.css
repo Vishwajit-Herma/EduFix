@@ -1,0 +1,157 @@
+.main-content {
+  padding-top: 82px;
+  flex-grow: 1;
+}
+
+.post-card {
+  width: 100%; /* or a fixed width */
+  max-width: 600px;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color:#fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    width: 500px;
+    margin-left: 502px;
+    /* margin-top: 100px; */
+   min-height: 500px;
+   display: flex;
+   flex-direction: column;
+   outline: none;
+   word-wrap: break-word; 
+  }
+  
+  .post-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 2px solid #ccc;
+  }
+  
+.title{
+  width: 480px;
+  word-wrap: break-word;
+}
+
+  .role{
+    font-size: 15px;
+    color: hsl(0, 5%, 70%);
+    margin-top: 25px;
+    position: relative;
+    right: 364px;
+  }
+  
+  .description {
+    margin-bottom: 12px;
+    font-size: 18px;
+    margin-top: 12px;
+    color: black;
+    width: 470px;
+    word-wrap: break-word;
+    max-height: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    text-align: justify;
+  }
+
+  .user-info h2 {
+    width: 400px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .discription {
+    color: black;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .post-content img {
+    max-width: 100%;
+    flex-grow: 1;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-top: auto;
+  }
+  
+  .post-actions .likes,
+  .post-actions .comments {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .post-actions .likes:hover,
+  .post-actions .comments:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  /* Answer link styling */
+.answer-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.like-button {
+  background-color:  #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.like-button.liked {
+  background-color: #fff;
+  cursor: not-allowed;
+  color: #3897f0;
+  font-size: 16px;
+}
+
+.likes-count {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.read-more-button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+
+
+
+/* Answer form styling */
+
+/* Answers Section Styling */
