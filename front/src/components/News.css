@@ -1,90 +1,105 @@
 .news-section {
-    width: 490px; /* Adjust the width as per your design */
-    position: fixed;
-    left: 0;
-    top: 80px; /* Adjust based on your navbar height */
-    padding: 10px;
-    background-color: #f2f2f2;
-    /* border-right: 2px solid #ddd; */
-    
-    height: calc(100vh - 90px); /* Make the news section fit the viewport height */
-    overflow: auto; /* Allows scrolling */
-    z-index: 999;
-    margin-top: 5px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 490px; /* Adjust the width as per your design */
+  position: fixed;
+  left: 35%;
+  top: 80px; /* Adjust based on your navbar height */
+  padding: 10px;
+  
+  /* border-right: 2px solid #ddd; */
+  
+  height: calc(100vh - 90px); /* Make the news section fit the viewport height */
+  overflow: auto; /* Allows scrolling */
+  z-index: 999;
+  margin-top: 5px;
+}
 
-  .News{
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding-top: 5px;
-    font-size: 25px;
-    color: #3897f0;
-  }
+.news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
   
-  .box-1{
-    width: 470px;
-    background-color: #fff;
-    border-radius: 6px;
-    height: 40px;
-    margin-bottom: 10px;
-  }
-  .news-section::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-  }
-  .news-section {
-    scrollbar-width: none; /* Firefox */
-  }
+}
+
+.News{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+  color: #3897f0;
   
-  /* Hide scrollbar for Internet Explorer and Edge */
-  .news-section {
-    -ms-overflow-style: none;  /* IE and Edge */
-  }  
-  .news-card {
-    display: flex;
-    margin-bottom: 10px;
-    background-color: #fff;
-    border-radius: 6px;
-   
-    overflow: hidden;
-    height: 100px;
-  }
-  
-  .news-image {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px 0 0 8px;
-    height: auto;
-  }
-  
-  .news-info {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .news-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  
-  .news-description {
-    font-size: 14px;
-    color: #555;
-    flex-grow: 1;
-    margin-bottom: 10px;
-  }
-  
-  .see-more-link {
-    font-size: 14px;
-    color: #3897f0;
-    text-decoration: none;
-  }
-  
-  .see-more-link:hover {
-    text-decoration: underline;
-  }
-  
+}
+
+.box-1{
+  width: 470px;
+  background-color: #fff;
+  border-radius: 6px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.news-section::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.news-section {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.news-section {
+  -ms-overflow-style: none;  /* IE and Edge */
+}  
+.news-card {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+ 
+  overflow: hidden;
+  height: 100px;
+}
+
+.news-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+  height: auto;
+}
+
+.news-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.news-description {
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+.see-more-link {
+  font-size: 14px;
+  color: #3897f0;
+  text-decoration: none;
+}
+
+.see-more-link:hover {
+  text-decoration: underline;
+}

@@ -1,90 +1,91 @@
+
 .extra-section {
-    width: 500px; /* Adjust the width as per your design */
-    position: fixed;
-    right: 0;
-    top: 350px; /* Adjust based on your navbar height */
-    padding: 10px;
-    background-color: #f2f2f2;
-    /* border-right: 2px solid #ddd; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    height: 50vh; /* Make the extra section fit the viewport height */
-    overflow: auto; /* Allows scrolling */
-    z-index: 999;
-    margin-top: 5px;
-  }
+  width: 500px; /* Adjust the width as per your design */
+  position: fixed;
+  right: 0;
+  top: 75px; /* Adjust based on your navbar height */
+  padding: 10px;
+  
+  left: 35%;
+  /* border-right: 2px solid #ddd; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  height: 100vh; /* Make the extra section fit the viewport height */
+  overflow: auto; /* Allows scrolling */
+  z-index: 999;
+  margin-top: 5px;
+}
 
-  .extra{
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding-top: 5px;
-    font-size: 25px;
-    color: #3897f0;
-  }
-  
-  .box-1{
-    width: 470px;
-    background-color: #fff;
-    border-radius: 6px;
-    height: 40px;
-    margin-bottom: 10px;
-  }
+.extra{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+  color: #3897f0;
+}
 
-  
-  .extra-section::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-  }
-  .extra-section {
-    scrollbar-width: none; /* Firefox */
-  }
-  
-  /* Hide scrollbar for Internet Explorer and Edge */
-  .extra-section {
-    -ms-overflow-style: none;  /* IE and Edge */
-  }  
- 
-  
-  .extra-image {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;                                                          
-    margin-right: 20px;
-    margin-bottom: 5px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: white;
-  }
-  
-  .extra-info {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .extra-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  
-  .extra-description {
-    font-size: 14px;
-    color: #555;
-    flex-grow: 1;
-    margin-bottom: 10px;
-  }
-  
-  .see-more-link {
-    font-size: 14px;
-    color: #3897f0;
-    text-decoration: none;
-  }
-  
-  .see-more-link:hover {
-    text-decoration: underline;
-  }
-  
+.box-1{
+  width: 470px;
+  background-color: #fff;
+  border-radius: 6px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+
+.extra-section::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.extra-section {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.extra-section {
+  -ms-overflow-style: none;  /* IE and Edge */
+}  
+
+
+.extra-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;                                                          
+  margin-right: 20px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.extra-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.extra-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.extra-description {
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+.see-more-link {
+  font-size: 14px;
+  color: #3897f0;
+  text-decoration: none;
+}
+
+.see-more-link:hover {
+  text-decoration: underline;
+}

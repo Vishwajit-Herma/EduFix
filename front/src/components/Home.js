@@ -123,7 +123,7 @@ function Home() {
   return (
     <div className={`homepage ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme} onSearch={handleSearch} onSuggestionClick={handleSuggestionClick} />
-      <News />  <Club /> <Extra/>
+      
       <div className="main-content">
       <Posts/>
       <div>

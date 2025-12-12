@@ -1,9 +1,13 @@
 import React from "react";
 import "./Club.css"; // Separate CSS file for club section
+import Navbar from "./Navbar";
 
 const Club = () => {
   return (
+    <div><Navbar   />
     <div className="club-section">
+    
+
       <div className="box-1">
         <h3 className="club">Clubs:</h3>
       </div>
@@ -65,6 +69,7 @@ const Club = () => {
           className="club-image"
         />
       </div>
+    </div>
     </div>
   );
 };

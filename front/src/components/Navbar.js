@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import logo_light from '../assests/logo-black.png';
 import search_icon_dark from '../assests/search-b.png';
 import logo from '../assests/logo.png';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Navbar = ({ onSearch, suggestions = [], onSuggestionClick }) => {
   const navigate = useNavigate();
@@ -53,10 +53,11 @@ const Navbar = ({ onSearch, suggestions = [], onSuggestionClick }) => {
       <img src={logo} alt='' className='logo' />
 
       <ul>
-        <li className='li'>Home</li>
-        <li className='li'>Academics</li>
-        <li className='li'>Events</li>
-        <li className='li'>About</li>
+      <li className='li'><Link className='link' to="/home">Home</Link></li>
+        <li className='li'><Link className='link' to="/news">News</Link></li>
+        <li className='li'><Link className='link' to="/club">Clubs</Link></li>
+        <li className='li'><Link className='link' to="/departments">Departments</Link></li>
+        
       </ul>
 
       <div className='search'>

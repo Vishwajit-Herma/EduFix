@@ -1,8 +1,10 @@
 import React from 'react';
 import './Extra.css'; // Separate CSS file for extra section
+import Navbar from './Navbar';
 
 const Extra = () => {
   return (
+    <div><Navbar />
     <div className="extra-section">
         <div className='box-1'>
         <h3 className='extra'>Departments:</h3></div>
@@ -112,6 +114,7 @@ const Extra = () => {
         
       </div>
    
+    </div>
     </div>
   );
 };

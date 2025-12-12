@@ -1,8 +1,10 @@
 import React from 'react';
 import './News.css'; // Separate CSS file for news section
+import Navbar from './Navbar';
 
 const News = () => {
-  return (
+  return (<div><Navbar />
+  <div className="news-container">
     <div className="news-section">
         <div className='box-1'>
         <h3 className='News'>News/Circulars:</h3></div>
@@ -91,6 +93,8 @@ const News = () => {
           <a href="#!" className="see-more-link">See More</a>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

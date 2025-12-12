@@ -11,6 +11,9 @@ import Post from "./components/Post";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { LoginContext } from "./context/LoginContext";
+import News from "./components/News";
+import Club from "./components/Club";
+import Extra from "./components/Extra";
 
 function App() {
   const [userLogin, setUserLogin] = useState(false);
@@ -28,6 +31,9 @@ function App() {
           <Route path="/answer/:postId" element={<Answer/>}/>
           <Route path="/profile" element={<Profile/>}/>
           <Route path="/post/" element={<Post />}/>
+          <Route path="/news" element={<News />}/>
+          <Route path="/club" element={<Club />}/>
+          <Route path="/departments" element={<Extra />}/>
         </Routes>
         </LoginContext.Provider>
       </Router>
